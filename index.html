@@ -51,30 +51,49 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="index.html#hero" target="_blank" class="active">BERANDA<br></a></li>
-        <li class="dropdown"><a href="index.html#tabs-tab-1"><span>LAYANAN KAMI</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-  <ul>
-    <li><a href="index.html#tabs-tab-1">SEWA GENERATOR SET</a></li>
-    <li><a href="index.html#tabs-tab-2">PEMBANGKIT LISTRIK</a></li>
-    <li><a href="index.html#tabs-tab-3">O&M GENSET CADANGAN</a></li>
-    <li><a href="index.html#tabs-tab-4">DEWATERING & LUMPUR TAMBANG</a></li>
-    <li><a href="index.html#tabs-tab-5">SS-IK 2000 LIGHTING TOWER</a></li>
-  </ul>
-</li>
-          <li><a href="index.html#faq">PORTOFOLIO</a></li>
-          <li class="dropdown"><a href="#"><span>TENTANG KAMI</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <li>
+            <a href="#hero" data-section="hero">BERANDA</a>
+          </li>
+
+          <li class="dropdown">
+            <a href="#tabs" data-section="tabs">
+              <span>LAYANAN KAMI</span>
+              <i class="bi bi-chevron-down toggle-dropdown"></i>
+            </a>
+            <ul>
+              <li><a href="#tabs-tab-1">SEWA GENERATOR SET</a></li>
+              <li><a href="#tabs-tab-2">PEMBANGKIT LISTRIK</a></li>
+              <li><a href="#tabs-tab-3">O&M GENSET CADANGAN</a></li>
+              <li><a href="#tabs-tab-4">DEWATERING & LUMPUR TAMBANG</a></li>
+              <li><a href="#tabs-tab-5">SS-IK 2000 LIGHTING TOWER</a></li>
+            </ul>
+          </li>
+
+          <li>
+            <a href="#faq" data-section="faq">PORTOFOLIO</a>
+          </li>
+
+          <li class="dropdown">
+            <a href="#">
+              <span>TENTANG KAMI</span>
+              <i class="bi bi-chevron-down toggle-dropdown"></i>
+            </a>
             <ul>
               <li><a href="sejarah.html">SEJARAH PERUSAHAAN</a></li>
               <li><a href="Struktural Perusahaan.html">STRUKTURAL PERUSAHAAN</a></li>
               <li><a href="alamat.html">ALAMAT PERUSAHAAN</a></li>
-              </ul>
+            </ul>
           </li>
-          <li><a href="#contact">HUBUNGI KAMI</a></li>
+
+          <li>
+            <a href="#contact" data-section="contact">HUBUNGI KAMI</a>
+          </li>
         </ul>
+
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-      <a class="btn-getstarted" href="index.html#about">Get Started</a>
+      <a class="btn-getstarted" href="index.html#about">Mulai</a>
 
     </div>
   </header>
@@ -92,8 +111,7 @@
             <h2 data-aos="fade-up" data-aos-delay="100">POWER SERVICE SOLUTION</h2>
             <p data-aos="fade-up" data-aos-delay="200">Penyedia jasa ketenagalistrikan yang terintegrasi, terlengkap, dan terpercaya.</p>
             <div class="d-flex mt-4" data-aos="fade-up" data-aos-delay="300">
-              <a href="#about" class="btn-get-started">Get Started</a>
-              <a href="https://www.youtube.com/watch?v=9tVfBnbH8Hw&t=2s" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+              <a href="https://www.youtube.com/watch?v=9tVfBnbH8Hw&t=2s" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Tonton Video</span></a>
             </div>
 
           </div>
@@ -115,7 +133,7 @@
           <p>
             Menjadi penyedia Solusi Layanan Ketenagalistrikan terdepan dan pilihan utama di industri dengan menciptakan nilai bagi pelanggan dan pemegang saham.
           </p>
-            <a href="#" class="about-btn align-self-center align-self-xl-start"><span>About us</span> <i class="bi bi-chevron-right"></i></a>
+            <a href="sejarah.html" class="about-btn align-self-center align-self-xl-start"><span>Tentang Kami</span> <i class="bi bi-chevron-right"></i></a>
           </div>
 
           <div class="col-xl-7" data-aos="fade-up" data-aos-delay="200">
@@ -126,17 +144,17 @@
                <p>Secara terus menerus menciptakan lapangan pekerjaan yang layak dan berkualitas bagi sebanyak mungkin masyarakat Indonesia.</p>
             </div>
               <div class="col-md-6 icon-box position-relative">
-                <i class="bi bi-gem"></i>
+                <i class="bi bi-graph-up-arrow"></i>
                <p>Senantiasa memastikan pertumbuhan bisnis yang berkelanjutan serta menguntungkan dengan memaksimalkan nilai pemegang saham.</p>
               </div><!-- Icon-Box -->
 
               <div class="col-md-6 icon-box position-relative">
-                <i class="bi bi-broadcast"></i>
+                <i class="bi bi-person-check-fill"></i>
                 <p>Selalu memberikan solusi dengan nilai tambah untuk mengoptimalkan kepuasan pelanggan.</p>
               </div><!-- Icon-Box -->
 
               <div class="col-md-6 icon-box position-relative">
-                <i class="bi bi-easel"></i>
+                <i class="bi bi-people"></i>
                 <p>Secara aktif terlibat dalam masyarakat sebagai warga korporasi yang baik.</p>
               </div><!-- Icon-Box -->
 
@@ -152,43 +170,58 @@
     
     <!-- Tabs Section -->
     <section id="tabs" class="tabs section">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>LAYANAN KAMI</h2>
+        <p>Sewatama menghadirkan berbagai solusi ketenagalistrikan dan layanan industri yang terintegrasi untuk memenuhi kebutuhan operasional pelanggan. Didukung oleh tenaga profesional dan teknologi yang andal, kami berkomitmen memberikan layanan yang efisien, berkualitas, serta terpercaya di berbagai sektor industri.</p>
+      </div><!-- End Section Title -->
 
       <div class="container">
 
-        <ul class="nav nav-tabs row  d-flex" data-aos="fade-up" data-aos-delay="100">
-          <li class="nav-item col-3">
+        <div class="row justify-content-center">
+
+          <div class="col-lg-12" data-aos="fade-up" data-aos-delay="100">
+
+
+      <div class="container">
+
+        <ul class="nav nav-tabs row d-flex layanan-tabs" data-aos="fade-up" data-aos-delay="100">
+          <li class="nav-item">
             <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#tabs-tab-1">
-              <i class="bi bi-binoculars"></i>
+              <i class="bi bi-cpu"></i>
               <h4 class="d-none d-lg-block">Sewa Generator Set</h4>
             </a>
           </li>
-          <li class="nav-item col-3">
+
+          <li class="nav-item">
             <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tabs-tab-2">
-              <i class="bi bi-box-seam"></i>
+              <i class="bi bi-lightning"></i>
               <h4 class="d-none d-lg-block">Pembangkit Listrik</h4>
             </a>
           </li>
-          <li class="nav-item col-3">
+
+          <li class="nav-item">
             <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tabs-tab-3">
-              <i class="bi bi-brightness-high"></i>
+              <i class="bi bi-gear-wide-connected"></i>
               <h4 class="d-none d-lg-block">O&M Genset Cadangan</h4>
             </a>
           </li>
-          <li class="nav-item col-3">
+
+          <li class="nav-item">
             <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tabs-tab-4">
-              <i class="bi bi-command"></i>
+              <i class="bi bi-water"></i>
               <h4 class="d-none d-lg-block">Dewatering & Lumpur Tambang</h4>
             </a>
           </li>
 
-          <li class="nav-item col-3">
+          <li class="nav-item">
             <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tabs-tab-5">
-              <i class="bi bi-command"></i>
+              <i class="bi bi-broadcast"></i>
               <h4 class="d-none d-lg-block">SS-IK 2000 Lighting Tower</h4>
             </a>
           </li>
-        </ul><!-- End Tab Nav -->
-
+        </ul>
+        
         <div class="tab-content" data-aos="fade-up" data-aos-delay="200">
 
           <div class="tab-pane fade active show" id="tabs-tab-1">
@@ -336,7 +369,7 @@
 
             <div class="faq-container">
 
-              <div class="faq-item faq-active">
+              <div class="faq-item">
                 <h3>Pengembangan PLTBg POME 2,4 MW</h3>
                 <div class="faq-content">
                   <p>
@@ -557,7 +590,7 @@
       </div>
     </div>
 
-    <div class="container copyright text-center mt-4">
+    <div class="container copyright text-center mt-4 d-flex flex-column align-items-center">
       <p>© <span>Copyright</span> <strong class="px-1 sitename">SEWATAMA</strong> <span>All Rights Reserved</span></p>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
@@ -585,6 +618,40 @@
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
 
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const navLinks = document.querySelectorAll(
+      "#navmenu a[data-section]"
+    );
+
+    const sections = document.querySelectorAll(
+      "#hero, #tabs, #faq, #contact"
+    );
+
+    function updateActiveMenu() {
+      let currentSection = "hero";
+
+      sections.forEach(section => {
+        const position = section.getBoundingClientRect().top;
+
+        if (position <= 150) {
+          currentSection = section.id;
+        }
+      });
+
+      navLinks.forEach(link => {
+        link.classList.remove("active");
+
+        if (link.dataset.section === currentSection) {
+          link.classList.add("active");
+        }
+      });
+    }
+
+    window.addEventListener("scroll", updateActiveMenu);
+    updateActiveMenu();
+  });
+  </script>
 </body>
 
 </html>
